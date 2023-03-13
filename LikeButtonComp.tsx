@@ -12,13 +12,9 @@ export default function LikeButtonComp() {
 
 function LikeButton() {
   const count = 999;
-  return <span className="likeButton">いいね♥{count}</span>;
-}
-
-export function AppGoodBtn() {
   return (
-    <StrictMode>
-      <App />
-    </StrictMode>
+    <React.Fragment>
+      <span className="likeButton">いいね♥{count}</span>
+    </React.Fragment>
   );
 }
