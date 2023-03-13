@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import AppGoodBtn from './LikeButtonComp';
+import AppGoodBtn from './components/LikeButtonComp';
 import GoodMsgComp from './components/GoodMsgComp';
 import ColofulMessage1 from './components/PropsSample1';
 import ColofulMessage2 from './components/PropsSample2';

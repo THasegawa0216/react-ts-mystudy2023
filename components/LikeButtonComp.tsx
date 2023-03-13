@@ -11,10 +11,17 @@ export default function LikeButtonComp() {
 }
 
 function LikeButton() {
-  const count = 999;
+  const onClickCountUp = () => {
+    setCount(count + 1);
+  };
+  const [count, setCount] = React.useState(0);
+
   return (
     <React.Fragment>
-      <span className="likeButton">いいね♥{count}</span>
+      <p>LikeButtonCompです</p>
+      <span className="likeButton" onClick={onClickCountUp}>
+        いいね♥{count}
+      </span>
     </React.Fragment>
   );
 }
