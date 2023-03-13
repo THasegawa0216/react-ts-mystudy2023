@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StrictMode } from 'react';
-import './style.css';
+import '../style.css';
 
 export default function LikeButtonComp() {
   return (
